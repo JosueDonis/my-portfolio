@@ -1,39 +1,38 @@
 <script>
-	import Avatar from '@atoms/Avatar.svelte';
-	import Astronaut from '@images/astronaut.png';
+	import {Astrounaut, MediaSocial} from '@molecules';
 </script>
 
-<section class="flex items-center flex-col h-[calc(100%_-_56px)] gap-10">
-	<div class="flex items-center gap-10 justify-center h-[60%]">
-		<!-- <Avatar class="w-[300px] m-0" /> -->
-		<img class="w-[150px] aspect-auto object-cover object-center" src={Astronaut} alt="Astronaut" />
-		<div class="flex flex-col gap-4 items-center w-[50%] text-center">
-			<h2 class="text-6xl font-bold font-inter animate-fade-up animate-once text-[#606DCE]">Josué Donis</h2>
-			<p class="text-xs animate-fade-up animate-once ">
+<section
+	id="about"
+	class="flex items-center flex-col mt-14 md:h-[calc(100vh_-_188px)] h-auto md:gap-0 gap-10 justify-evenly"
+>
+	<div
+		class="flex items-center gap-10 justify-center animate-fade animate-once animate-ease-in md:flex-row flex-col"
+	>
+		<Astrounaut />
+		<div class="flex flex-col gap-4 items-center text-center md:w-[50%] w-full">
+			<h2 class="text-6xl font-bold font-poppins animate-fade-up animate-once text-[#606DCE]">
+				Josué Donis
+			</h2>
+			<p class="text-xs animate-fade-up animate-once">
 				<strong>"</strong>En un universo impulsado por la tecnología, cada línea de código es una
 				oportunidad para dar vida a la innovación<strong>"</strong>
 			</p>
+			<MediaSocial />
 		</div>
 	</div>
-	<div class="flex flex-col gap-14 h-[40%] items-center">
-        <div class="flex gap-10 animate-fade-right animate-once animate-ease-in">
-            <p class="text-sm">
-                Soy un apasionado desarrollador de software con una misión: transformar ideas en realidad. Ya
-                sea construyendo aplicaciones móviles que simplifican la vida cotidiana o diseñando sitios web
-                que cautivan a la audiencia, mi enfoque siempre está en la excelencia.
-            </p>
-            <p class="text-sm">
-                Mi caja de herramientas incluye lenguajes de programación, frameworks y tecnologías de
-                vanguardia. Pero lo que realmente impulsa mi trabajo es la pasión por desafiar lo establecido
-                y superar los límites. Cada proyecto es una oportunidad para aprender, crecer y, lo más
-                importante, innovar.
-            </p>
-        </div>
-        <p class="text-sm animate-fade-right animate-once animate-ease-in">
-            Así que, si estás listo para embarcarte en un viaje digital emocionante, explorar nuevas
-            posibilidades tecnológicas o simplemente sumergirte en un mundo de desarrollo de software
-            apasionado, ¡has llegado al lugar adecuado! Te invito a explorar mi trabajo, conocer mis
-            proyectos y unirte a mí en esta aventura de innovación y creatividad.
-        </p>
-    </div>
+	<div class="flex gap-10 animate-fade-right animate-once animate-ease-in md:flex-row flex-col">
+		<p class="text-sm">
+			Mi enfoque principal se centra en el desarrollo de aplicaciones web y móviles. A lo largo de
+			mi carrera, he trabajado en una amplia variedad de proyectos, desde aplicaciones móviles que
+			mejoran la eficiencia de las empresas hasta plataformas web interactivas que brindan
+			experiencias excepcionales a los usuarios
+		</p>
+		<p class="text-sm">
+			Así que, si estás listo para embarcarte en un viaje digital emocionante, explorar nuevas
+			posibilidades tecnológicas o simplemente sumergirte en un mundo de desarrollo de software
+			apasionado, ¡has llegado al lugar adecuado! Te invito a explorar mi trabajo, conocer mis
+			proyectos y unirte a mí en esta aventura de innovación y creatividad.
+		</p>
+	</div>
 </section>

@@ -18,7 +18,9 @@ const config = {
 			'@molecules': 'src/components/molecules',
 			'@organisms': 'src/components/organisms',
 			'@templates': 'src/components/templates',
-			'@images': 'src/assets/images'
+			'@images': 'src/assets/images',
+			'@icons': 'src/assets/icons',
+			'$types': 'src/types'
 		}
 	}
 };

@@ -4,12 +4,16 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			colors: {
+				primary: {
+					DEFAULT: '#606DCE'
+				}
+			},
 			fontFamily: {
-				inter: ['Inter'],
 				poppins: ['Poppins', 'Arial'],
 				montserrat: ['Montserrat']
 			}
-		},
+		}
 	},
-	plugins: [ require('tailwindcss-animated')]
+	plugins: [require('tailwindcss-animated')]
 };

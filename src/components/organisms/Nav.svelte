@@ -1,26 +1,33 @@
 <script>
-	import Link from '@atoms/Link.svelte';
+	import { Link } from '@atoms';
 	import { fade } from 'svelte/transition';
+	let navs = [
+		{
+			name: 'Acerca de',
+			href: '#about'
+		},
+		{
+			name: 'Experencia',
+			href: '#experencie'
+		},
+		{
+			name: 'Proyectos',
+			href: '#projects'
+		},
+		{
+			name: 'Tecnologías',
+			href: '#tech'
+		}
+	];
 </script>
 
-<nav
-	class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500"
->
-	<ul
-		class="flex font-bold justify-end items-center w-full max-w-full flex-wrap  gap-8"
-	>
-		<li>
-			<Link name="Acerca de" />
-		</li>
-		<li>
-			<Link name="Experencia" />
-		</li>
-		<li>
-			<Link name="Proyectos" />
-		</li>
-		<li>
-			<Link name="Habilidades" />
-		</li>
+<nav class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500">
+	<ul class="flex font-bold justify-end items-center w-full max-w-full flex-wrap gap-8">
+		{#each navs as nav}
+			<li>
+				<Link name={nav.name} href={nav.href} />
+			</li>
+		{/each}
 	</ul>
 </nav>
 

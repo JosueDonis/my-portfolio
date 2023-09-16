@@ -1,6 +1,9 @@
-<script>
-	import { blur, fade } from 'svelte/transition';
+<script lang="ts">
+	import { cubicIn, cubicOut } from 'svelte/easing';
+
+	import { blur, fade, fly } from 'svelte/transition';
 </script>
-<main transition:blur={{ amount: 10 }}>
+
+<main  class="">
 	<slot />
 </main>
