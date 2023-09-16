@@ -1,6 +1,7 @@
 import Android from './Android.svelte';
 import Apple from './Apple.svelte';
 import Capacitor from './Capacitor.svelte';
+import ChevronRight from './ChevronRight.svelte';
 import Css from './Css.svelte';
 import Git from './Git.svelte';
 import Github from './Github.svelte';
@@ -10,6 +11,7 @@ import Instagram from './Instagram.svelte';
 import Ionic from './Ionic.svelte';
 import Javascript from './Javascript.svelte';
 import Laptop from './Laptop.svelte';
+import Link from './Link.svelte';
 import Linkedin from './Linkedin.svelte';
 import Mail from './Mail.svelte';
 import Mongo from './Mongo.svelte';
@@ -29,6 +31,8 @@ import Vite from './Vite.svelte';
 import Vscode from './Vscode.svelte';
 
 export {
+	ChevronRight,
+	Link,
 	Mongo,
 	Postgres,
 	Mysql,

@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { Card } from '@atoms';
-	import Gridia from '@images/gridia-mockup.png';
-	import ClaroClub from '@images/claro-mockup.png';
-	import Learning from '@images/learning-mockup.png';
-	import Localizame from '@images/localizame-mockup.png';
-	import Symfonia from '@images/symfonia-mockup.png';
-	import Marketspace from '@images/marketspace-mockup.png';
+	import {
+		MarketspaceMockup,
+		GodoMockup,
+		LearningMockup,
+		LocalizameMockup,
+		ClaroMockup,
+		GridiaMockup
+	} from '@images';
 	import type { SvelteComponent } from 'svelte';
 	import {
 		React,
@@ -20,51 +22,58 @@
 		Vercel,
 		Capacitor,
 		Android,
-		Apple
+		Apple,
+
+		Mongo,
+
+		Mysql
+
+
 	} from '@icons';
 
 	let projects = [
 		{
-			src: Gridia,
+			src: LearningMockup,
+			title: 'Plantilla Learning',
+			description:
+				'Esta plantilla te permite ofrecer contenido interactivo, seguimiento de progreso, y una experiencia de usuario intuitiva. Plataforma de cursos en línea',
+			icons: [React, Typescript, Ionic, Vite, Vercel, Capacitor, Tailwindcss]
+		},
+		{
+			src: GridiaMockup,
 			title: 'Gridia',
 			description:
 				'Gestiona el consumo de agua de uno o varios proyectos de vivienda y recibe alertas de posibles problemas o fugas de agua de manera inmediata en la aplicación web / móvil Gridia para solucionarlo rápidamente.',
-			icons: [Svelte, Javascript, Vite, Ionic, React, Vercel, Tailwindcss,]
+			icons: [Svelte, Javascript, Vite, Ionic, React, Vercel, Tailwindcss]
 		},
 		{
-			src: ClaroClub,
+			src: ClaroMockup,
 			title: 'Claro Club',
 			description:
 				' App de beneficios que premia tu fidelidad  y preferencia. Obteniendo gratis, de forma fácil y rápida, una amplia gama de promociones y descuentos exclusivos en establecimientos seleccionados',
 			icons: [React, Javascript, Ionic, Capacitor, Android, Apple]
 		},
 		{
-			src: Localizame,
+			src: LocalizameMockup,
 			title: 'Localizame',
 			description:
 				'Es una herramienta que permite localizar líneas móviles Claro en tiempo real por medio de GPS, dirección IP y localización por antenas (SIM).',
 			icons: [React, Typescript, Ionic, Capacitor, Android, Apple]
 		},
+
 		{
-			src: Learning,
-			title: 'Plantilla Learning',
+			src: GodoMockup,
+			title: 'Godo',
 			description:
-				'Esta plantilla te permite ofrecer contenido interactivo, seguimiento de progreso, y una experiencia de usuario intuitiva. Plataforma de cursos en línea',
-			icons: [React, Typescript, Ionic, Vite, Vercel, Capacitor, Tailwindcss,]
+				'La aplicación GoDo es una poderosa herramienta que permite a los usuarios escanear, guardar y compartir fácilmente las páginas de GoDo',
+			icons: [Nodejs, Mongo,]
 		},
 		{
-			src: Symfonia,
-			title: 'Symfonia',
-			description:
-				'Symfonia te permite emitir facturas electrónicas con certificadores autorizados por la SAT en Guatemala, simplica la gestión y el control financiero de tu negocio.',
-			icons: [React, Javascript, Ionic, Vercel, Tailwindcss,]
-		},
-		{
-			src: Marketspace,
+			src: MarketspaceMockup,
 			title: 'Marketspace',
 			description:
 				'Dale a tus clientes una manera rápida y segura de hacer sus pedidos en línea con MarketSpace.',
-			icons: [Svelte, Javascript, Nodejs, Prisma, Vercel]
+			icons: [Svelte, Javascript, Nodejs, Prisma, Vercel, Mysql]
 		}
 	];
 </script>

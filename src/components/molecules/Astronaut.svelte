@@ -1,5 +1,5 @@
 <script>
-	import Astronaut from '@images/astronaut.png';
+	import {Astronaut} from '@images';
 	import { onMount } from 'svelte';
 	import Atropos from 'atropos';
 

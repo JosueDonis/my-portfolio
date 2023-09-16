@@ -1,8 +1,5 @@
 <script>
-	import Github from '@icons/Github.svelte';
-	import Instagram from '@icons/Instagram.svelte';
-	import Linkedin from '@icons/Linkedin.svelte';
-	import Mail from '@icons/Mail.svelte';
+	import {Mail, Linkedin, Instagram, Github} from '@icons';
 
 	let items = [
 		{
