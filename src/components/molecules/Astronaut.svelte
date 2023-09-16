@@ -1,9 +1,13 @@
 <script>
-	import {Astronaut} from '@images';
+	import { Astronaut, AstronautFloating } from '@images';
 	import { onMount } from 'svelte';
 	import Atropos from 'atropos';
 
+	let image = true;
 	onMount(() => {
+		setInterval(() => {
+			image = !image;
+		}, 300000);
 		// Initialize
 		const myAtropos = Atropos({
 			el: '.my-atropos',
@@ -36,9 +40,11 @@
 			<div class="atropos-inner">
 				<img
 					data-atropos-offset="5"
-					class="w-[150px] m-5 md:aspect-auto md:h-full h-[300px] object-contain object-center float-ease-in-out"
-					src={Astronaut}
-					alt="Astronaut"
+					class="{image
+						? 'w-[150px]'
+						: 'w-[200px]'} m-5 aspect-auto md:h-full h-[300px] object-contain object-center float-ease-in-out"
+					src={image ? Astronaut : AstronautFloating}
+					alt="astronaut"
 				/>
 			</div>
 		</div>

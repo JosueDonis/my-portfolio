@@ -2,8 +2,22 @@
 	import '@styles/app.scss';
 	import Nav from '@organisms/Nav.svelte';
 	import Layout from '@templates/Layout.svelte';
+	import { onMount } from 'svelte';
+
+	let title = 'Josue Donis 🚀 | Frontend, Javascript, React, CSS, Perfomance';
 </script>
 
+<svelte:window
+	on:visibilitychange={(e) => {
+		title = !!document.hidden
+			? 'Regresa pronto! 👋'
+			: 'Josue Donis 🚀 | Frontend, Javascript, React, CSS, Perfomance';
+	}}
+/>
+
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
 <Layout>
 	<Nav />
 	<slot />
