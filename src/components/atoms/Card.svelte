@@ -28,7 +28,7 @@
 			{/each}
 		</div>
 		<a
-			class="font-poppins text-xs flex w-fit items-center rounded-full px-3 py-3 bg-primary hover:bg-primary/80 text-white"
+			class="font-poppins text-xs flex w-fit items-center rounded-full px-3 py-3 bg-primary hover:bg-primary/80 text-white" target="_blank"
 			{href}><span>Expolorar</span><ChevronRight class="w-[18px] h-[18px]" /></a
 		>
 	</div>
