@@ -1,22 +1,13 @@
 @layer base {
-	@font-face {
-		font-family: 'Poppins';
-		src: local('Poppins'), url('./fonts/poppins.ttf') format('truetype'),
-			url('fonts/poppins.ttf') format('trutype'),
-			url('./static/fonts/poppins.ttf') format('trutype'),
-			url('%sveltekit.assets%/fonts/poppins.ttf') format('trutype'),
-			;
-		font-display: swap;
-	}
+	// @font-face {
+	// 	font-family: 'Poppins';
+	// 	src: local('Poppins'), url('/fonts/poppins.ttf') format('trutype');
+	// 	font-display: swap;
+	// }
 
-	@font-face {
-		font-family: 'Montserrat';
-		src: local('Montserrat'), url('./fonts/montserrat.ttf') format('truetype'),
-			url('fonts/montserrat.ttf') format('trutype'),
-			url('./static/fonts/montserrat.ttf') format('trutype'),
-			url('%sveltekit.assets%/fonts/montserrat.ttf') format('trutype'),
-
-			;
-		font-display: swap;
-	}
+	// @font-face {
+	// 	font-family: 'Montserrat';
+	// 	src: local('Montserrat'), url('montserrat.ttf') format('trutype');
+	// 	font-display: swap;
+	// }
 }
