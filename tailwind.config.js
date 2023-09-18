@@ -11,8 +11,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				poppins: ['Poppins'],
-				montserrat: ['Montserrat']
+				poppins: ["'Poppins'"],
+				montserrat: ["'Montserrat'"]
 			}
 		}
 	},
