@@ -3,8 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -35,18 +34,28 @@ body {
 	}
 }
 
-
 ::-webkit-scrollbar {
 	width: 8px;
 	height: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
 	background: white;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
 	background: #d1d5db;
 	border-radius: 20px;
-  }
-  
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	src: url(/fonts/montserrat.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	src: url(/fonts/poppins.ttf) format('truetype');
+}
