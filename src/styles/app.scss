@@ -32,6 +32,17 @@ body {
 	html {
 		@apply scroll-smooth;
 	}
+
+	@font-face {
+		font-family: 'Poppins';
+		src: url('/fonts/poppins.ttf');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('/fonts/montserrat.ttf');
+		font-display: swap;
+	}
 }
 
 ::-webkit-scrollbar {
