@@ -11,7 +11,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				// inter: ['Inter Variable'],
+				poppins: ['Poppins'],
 				montserrat: ['Montserrat']
 			}
 		}
