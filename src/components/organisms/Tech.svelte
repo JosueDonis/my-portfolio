@@ -109,7 +109,7 @@
 </script>
 
 <section id="tech" class="mt-14 flex md:flex-col flex-col justify-center gap-8">
-	<h2 class="text-2xl font-poppins font-bold animate-fade animate-ease-in">Tecnología</h2>
+	<h2 class="text-2xl font-poppins font-bold animate-fade animate-ease-in">Tecnologías</h2>
 	<p class="text-sm animate-fade animate-ease-in">
 		A lo largo de mi carrera, me he apasionado por la tecnología y he adquirido una amplia gama de
 		habilidades, desde programación con JavaScript y React hasta gestión de bases de datos con SQL y
