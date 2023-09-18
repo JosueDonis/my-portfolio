@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -10,8 +11,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				poppins: ['Poppins', 'Arial'],
-				montserrat: ['Montserrat']
+				poppins: ['Poppins',],
+				montserrat: ['Montserrat', 'Arial']
 			}
 		}
 	},

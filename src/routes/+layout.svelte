@@ -19,9 +19,7 @@
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
-<Layout>
+<main>
 	<Nav />
-	<PageTransition pathname={data?.pathname}>
 		<slot />
-	</PageTransition>
-</Layout>
+</main>

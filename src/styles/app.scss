@@ -1,10 +1,14 @@
 @import 'atropos/scss';
+@import './font.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--fontsource-display: optional;
+}
+
 * {
-	// font-family: Montserrat;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -29,6 +33,5 @@ body {
 @layer base {
 	html {
 		@apply scroll-smooth;
-		font-family: Montserrat, Arial;
 	}
 }
