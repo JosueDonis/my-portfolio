@@ -21,7 +21,7 @@ const config = {
 			'@templates': 'src/components/templates',
 			'@images': 'src/assets/images',
 			'@icons': 'src/assets/icons',
-			'$types': 'src/types'
+			'$types': 'src/types',			
 		}
 	}
 };

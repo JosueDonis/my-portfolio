@@ -2,7 +2,8 @@
 	import '@styles/app.scss';
 	import Nav from '@organisms/Nav.svelte';
 	import Layout from '@templates/Layout.svelte';
-	import { onMount } from 'svelte';
+	import { PageTransition } from '@atoms';
+	export let data;
 
 	let title = 'Josue Donis 🚀 | Frontend, Javascript, React, CSS, Perfomance';
 </script>
@@ -20,5 +21,7 @@
 </svelte:head>
 <Layout>
 	<Nav />
-	<slot />
+	<PageTransition pathname={data?.pathname}>
+		<slot />
+	</PageTransition>
 </Layout>

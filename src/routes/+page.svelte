@@ -1,6 +1,6 @@
 <script>
 	import { BackToTop } from '@atoms';
-import {Tech, Experience, Projects, About} from '@organisms';
+	import { Tech, Experience, Projects, About } from '@organisms';
 </script>
 
 <About />

@@ -1,11 +1,10 @@
+@import 'atropos/scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import './font.scss';
-@import 'atropos/scss';
 
 * {
-	// font-family: Montserrat, Arial, Helvetica, sans-serif;
+	// font-family: Montserrat;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -30,5 +29,6 @@ body {
 @layer base {
 	html {
 		@apply scroll-smooth;
+		font-family: Montserrat, Arial;
 	}
 }
