@@ -1,5 +1,5 @@
+@import './font.scss';
 @import 'atropos/scss';
-// @import './font.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +9,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat';
-	font-display: swap;
 }
 body {
 	display: flex;
@@ -33,16 +32,7 @@ body {
 		@apply scroll-smooth;
 	}
 
-	// @font-face {
-	// 	font-family: 'Poppins';
-	// 	src: url('/fonts/poppins.ttf');
-	// 	font-display: swap;
-	// }
-	// @font-face {
-	// 	font-family: 'Montserrat';
-	// 	src: url('/fonts/montserrat.ttf');
-	// 	font-display: swap;
-	// }
+	
 }
 
 ::-webkit-scrollbar {
