@@ -1,13 +1,13 @@
 @layer base {
 	@font-face {
 		font-family: 'Poppins';
-		src: local('Poppins'), url('fonts/poppins-regular.ttf') format('ttf');
-        font-display: swap;
+		src: local('Poppins'), url('./fonts/poppins.ttf') format('truetype');
+		font-display: swap;
 	}
-	
+
 	@font-face {
 		font-family: 'Montserrat';
-		src: local('Montserrat'), url('fonts/montserrat-regular.ttf') format('ttf');
-        font-display: swap;
+		src: local('Montserrat'), url('./fonts/montserrat.ttf') format('truetype');
+		font-display: swap;
 	}
 }

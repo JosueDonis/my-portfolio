@@ -11,7 +11,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				poppins: ['Poppins',],
+				poppins: ['Poppins', 'Verdana'],
 				montserrat: ['Montserrat', 'Arial']
 			}
 		}

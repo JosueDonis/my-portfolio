@@ -4,11 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	--fontsource-display: optional;
-}
-
 * {
+	font-family: Montserrat;
+	font-display: optional;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;

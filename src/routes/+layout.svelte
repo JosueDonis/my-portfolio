@@ -21,5 +21,5 @@
 </svelte:head>
 <main>
 	<Nav />
-		<slot />
+	<slot />
 </main>
