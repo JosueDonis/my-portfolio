@@ -1,9 +1,9 @@
 @layer base {
-	// @font-face {
-	// 	font-family: 'Poppins';
-	// 	src: local('Poppins'), url('/fonts/poppins.ttf') format('trutype');
-	// 	font-display: swap;
-	// }
+	@font-face {
+		font-family: 'Inter';
+		src: url('../assets/fonts/inter.ttf') format('trutype');
+		font-display: swap;
+	}
 
 	// @font-face {
 	// 	font-family: 'Montserrat';

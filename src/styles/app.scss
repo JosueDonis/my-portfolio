@@ -1,17 +1,18 @@
 @import 'atropos/scss';
-@import './font.scss';
+// @import './font.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fontsource-variable/inter';
 
 * {
-	font-family: Montserrat;
-	font-display: optional;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body {
+	font-family: 'Inter Variable';
+	font-display: fallback;
 	display: flex;
 	width: 100%;
 	max-width: 100%;
