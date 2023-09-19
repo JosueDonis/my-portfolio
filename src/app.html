@@ -3,23 +3,16 @@
 	<head>
 		<style>
 			@font-face {
-				font-family: 'Poppins';
-				src: url('%sveltekit.assets%/fonts/poppins.ttf') format('truetype');
-				font-display: block;
-			}
-			@font-face {
 				font-family: 'Montserrat';
 				src: url('%sveltekit.assets%/fonts/montserrat.ttf') format('truetype');
 				font-display: block;
 			}
+			@font-face {
+				font-family: 'Poppins';
+				src: url('%sveltekit.assets%/fonts/poppins.ttf') format('truetype');
+				font-display: block;
+			}
 		</style>
-		<link
-			rel="preload"
-			href="%sveltekit.assets%/fonts/poppins.ttf"
-			as="font"
-			type="font/ttf"
-			crossorigin
-		/>
 		<link
 			rel="preload"
 			href="%sveltekit.assets%/fonts/montserrat.ttf"
@@ -27,6 +20,14 @@
 			type="font/ttf"
 			crossorigin
 		/>
+		<link
+			rel="preload"
+			href="%sveltekit.assets%/fonts/poppins.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin
+		/>
+
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.webp" />
 		<meta name="viewport" content="width=device-width" />
