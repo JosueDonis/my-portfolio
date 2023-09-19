@@ -42,7 +42,7 @@
 						<a class="text-base hover:font-bold" href="https://www.gridia.io/" target="_blank"
 							>Frontend Developer</a
 						>
-						<p class="text-xs text-gray-400">Enero 20223 - Actualmente</p>
+						<p class="text-xs text-gray-400">Enero 2023 - Actualmente</p>
 					</div>
 				</div>
 				<div class="w-[1px] h-10 bg-gray-400 ml-4" in:fade={{ duration: 1500, delay: 1200 }} />
