@@ -10,8 +10,8 @@ export default {
 				}
 			},
 			fontFamily: {
-				poppins: ['Poppins', 'Arial'],
-				montserrat: ['Montserrat', 'Arial']
+				poppins: ['"Poppins"', 'Arial'],
+				montserrat: ['"Montserrat"', 'Arial']
 			}
 		}
 	},
