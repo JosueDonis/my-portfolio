@@ -3,7 +3,6 @@
 	import Nav from '@organisms/Nav.svelte';
 	import Layout from '@templates/Layout.svelte';
 	import { PageTransition } from '@atoms';
-	export let data;
 
 	let title = 'Josue Donis 🚀 | Frontend, Javascript, React, CSS, Perfomance';
 </script>
