@@ -1,10 +1,12 @@
-@font-face {
-    font-family: 'Poppins';
-    src: url('/fonts/poppins.ttf') format('truetype');
-    font-display: optional;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('/fonts/montserrat.ttf') format('truetype');
-    font-display: optional;
+@layer base {
+    @font-face {
+        font-family: 'Poppins';
+        src: url('/fonts/poppins.ttf') format('truetype');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('/fonts/montserrat.ttf') format('truetype');
+        font-display: swap;
+    }
 }
