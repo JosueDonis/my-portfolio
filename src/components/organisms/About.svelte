@@ -15,8 +15,8 @@
 				Josué Donis
 			</h2>
 			<p class="text-xs animate-fade-up animate-once">
-				<strong>"</strong>En un universo impulsado por la tecnología, cada línea de código es una
-				oportunidad para dar vida a la innovación<strong>"</strong>
+				"En un universo impulsado por la tecnología, cada línea de código es una
+				oportunidad para dar vida a la innovación"
 			</p>
 			<MediaSocial />
 		</div>
@@ -26,7 +26,7 @@
 			Mi enfoque principal se centra en el desarrollo de aplicaciones web y móviles. A lo largo de
 			mi carrera, he trabajado en una amplia variedad de proyectos, desde aplicaciones móviles que
 			mejoran la eficiencia de las empresas hasta plataformas web interactivas que brindan
-			experiencias excepcionales a los usuarios
+			experiencias excepcionales a los usuarios.
 		</p>
 		<p class="text-sm">
 			Así que, si estás listo para embarcarte en un viaje digital emocionante, explorar nuevas
