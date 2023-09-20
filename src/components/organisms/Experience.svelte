@@ -22,7 +22,7 @@
 </script>
 
 {#if visible}
-	<section class="h-fit mt-14 flex md:flex-col flex-col justify-center gap-8" id="experencie">
+	<section class="md:mt-0 mt-14 flex md:flex-col flex-col justify-center gap-8" id="experencie">
 		<h2 class="text-2xl font-poppins font-bold animate-fade animate-ease-in">Experencia</h2>
 		<div class="flex w-full justify-around h-full items-center md:flex-row flex-col gap-10">
 			<div class="flex flex-col items-center justify-between gap-3">

@@ -4,7 +4,7 @@
 
 <section
 	id="about"
-	class="flex items-center flex-col md:mt-0 mt-14  md:h-[calc(100vh)] h-auto md:gap-0 gap-10 justify-evenly"
+	class="flex items-center flex-col md:mt-0 mt-14  md:h-full h-auto md:gap-0 gap-10 justify-evenly"
 >
 	<div
 		class="flex items-center gap-10 justify-center animate-fade animate-once animate-ease-in md:flex-row flex-col"
