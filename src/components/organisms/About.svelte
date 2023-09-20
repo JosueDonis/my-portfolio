@@ -4,7 +4,7 @@
 
 <section
 	id="about"
-	class="flex items-center flex-col mt-14 md:h-[calc(100vh_-_188px)] h-auto md:gap-0 gap-10 justify-evenly"
+	class="flex items-center flex-col md:mt-0 mt-14  md:h-[calc(100vh)] h-auto md:gap-0 gap-10 justify-evenly"
 >
 	<div
 		class="flex items-center gap-10 justify-center animate-fade animate-once animate-ease-in md:flex-row flex-col"
@@ -21,13 +21,7 @@
 			<MediaSocial />
 		</div>
 	</div>
-	<div class="flex gap-10 animate-fade-right animate-once animate-ease-in md:flex-row flex-col">
-		<p class="text-sm">
-			Mi enfoque principal se centra en el desarrollo de aplicaciones web y móviles. A lo largo de
-			mi carrera, he trabajado en una amplia variedad de proyectos, desde aplicaciones móviles que
-			mejoran la eficiencia de las empresas hasta plataformas web interactivas que brindan
-			experiencias excepcionales a los usuarios.
-		</p>
+	<div class="flex gap-10 animate-fade-right animate-once animate-ease-in">
 		<p class="text-sm">
 			Así que, si estás listo para embarcarte en un viaje digital emocionante, explorar nuevas
 			posibilidades tecnológicas o simplemente sumergirte en un mundo de desarrollo de software
