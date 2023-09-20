@@ -24,86 +24,107 @@
 	import Mongo from '@icons/Mongo.svelte';
 	import Mysql from '@icons/Mysql.svelte';
 
-	let frameworks = [
+	let techs = [
 		{
-			name: 'Sveltekit',
-			icon: Svelte
+			title: 'Frontend',
+			frameworks: [
+				{
+					name: 'Sveltekit',
+					icon: Svelte
+				},
+				{
+					name: 'React',
+					icon: React
+				},
+				{
+					name: 'Ionic',
+					icon: Ionic
+				},
+				{
+					name: 'Javascript',
+					icon: Javascript
+				},
+				{
+					name: 'Typescript',
+					icon: Typescript
+				},
+				{
+					name: 'Html',
+					icon: Html
+				},
+				{
+					name: 'Sass',
+					icon: Sass
+				},
+				{
+					name: 'Tailwindcss',
+					icon: Tailwindcss
+				},
+				{
+					name: 'Capacitor',
+					icon: Capacitor
+				},
+				{
+					name: 'Vite',
+					icon: Vite
+				}
+			]
 		},
 		{
-			name: 'React',
-			icon: React
+			title: 'Backend',
+			frameworks: [
+				{
+					name: 'Nodejs',
+					icon: Nodejs
+				},
+				{
+					name: 'Prisma',
+					icon: Prisma
+				},
+				{
+					name: 'Graphql',
+					icon: Graphql
+				},
+				{
+					name: 'Sequelize',
+					icon: Sequelize
+				}
+			]
 		},
 		{
-			name: 'Ionic',
-			icon: Ionic
+			title: 'Base de Datos',
+			frameworks: [
+				{
+					name: 'Mysql',
+					icon: Mysql
+				},
+				{
+					name: 'Postgres',
+					icon: Postgres
+				},
+				{
+					name: 'Mongo',
+					icon: Mongo
+				}
+			]
 		},
 		{
-			name: 'Javascript',
-			icon: Javascript
-		},
-		{
-			name: 'Typescript',
-			icon: Typescript
-		},
-		{
-			name: 'Nodejs',
-			icon: Nodejs
-		},
-		{
-			name: 'Prisma',
-			icon: Prisma
-		},
-		{
-			name: 'Graphql',
-			icon: Graphql
-		},
-		{
-			name: 'Tailwindcss',
-			icon: Tailwindcss
-		},
-		{
-			name: 'Vercel',
-			icon: Vercel2
-		},
-		{
-			name: 'Capacitor',
-			icon: Capacitor
-		},
-		{
-			name: 'Vite',
-			icon: Vite
-		},
-		{
-			name: 'Git',
-			icon: Git
-		},
-		{
-			name: 'Sequelize',
-			icon: Sequelize
-		},
-		{
-			name: 'Github',
-			icon: Github
-		},
-		{
-			name: 'Html',
-			icon: Html
-		},
-		{
-			name: 'Mysql',
-			icon: Mysql
-		},
-		{
-			name: 'Postgres',
-			icon: Postgres
-		},
-		{
-			name: 'Mongo',
-			icon: Mongo
-		},
-		{
-			name: 'Sass',
-			icon: Sass
+			title: 'DevOps',
+			frameworks: [
+				{
+					name: 'Git',
+					icon: Git
+				},
+
+				{
+					name: 'Github',
+					icon: Github
+				},
+				{
+					name: 'Vercel',
+					icon: Vercel2
+				}
+			]
 		}
 	];
 </script>
@@ -117,16 +138,23 @@
 		impactantes y colaborar en equipos multidisciplinarios. Estoy emocionado por el futuro y ansioso
 		por seguir aprendiendo y creciendo en este campo.
 	</p>
-	<div class="flex flex-wrap gap-8 justify-center items-center mb-10">
-		{#each frameworks as framework}
-			<div
-				class="p-2 flex justify-center items-center flex-col hover:cursor-pointer animate-fade animate-ease-in"
-			>
-				<svelte:component
-					this={framework.icon}
-					class="w-[45px] h-[45px] text-gray-500 scale-75 hover:scale-100 transition-transform duration-300"
-				/>
-				<span class="text-[0.65rem]">{framework.name}</span>
+	<div class="flex gap-2 flex-col">
+		{#each techs as tech}
+			<div class="flex gap-3 flex-col">
+				<h3 class="font-poppins font-bold text-base">{tech.title}</h3>
+				<div class="flex flex-wrap gap-8 items-center mb-10">
+					{#each tech.frameworks as framework}
+						<div
+							class="p-2 flex justify-center items-center flex-col hover:cursor-pointer animate-fade animate-ease-in"
+						>
+							<svelte:component
+								this={framework.icon}
+								class="w-[40px] h-[40px] text-gray-500 scale-75 hover:scale-100 transition-transform duration-300"
+							/>
+							<span class="text-[0.63rem]">{framework.name}</span>
+						</div>
+					{/each}
+				</div>
 			</div>
 		{/each}
 	</div>
