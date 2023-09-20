@@ -36,7 +36,7 @@
 			src: LearningMockup,
 			title: 'Plantilla Learning',
 			description:
-				'Esta plantilla te permite ofrecer contenido interactivo, seguimiento de progreso, y una experiencia de usuario intuitiva. Plataforma de cursos en línea',
+				'He creado esta plantilla learning la cual esta construida con la última versión de Ionic y React aplicando un diseño interactivo para el usuario.',
 			icons: [React, Typescript, Ionic, Vite, Vercel, Capacitor, Tailwindcss],
 			href: "https://learning-mobile.vercel.app/",
 		},
@@ -44,7 +44,7 @@
 			src: GridiaMockup,
 			title: 'Gridia',
 			description:
-				'Gestiona el consumo de agua de uno o varios proyectos de vivienda y recibe alertas de posibles problemas o fugas de agua de manera inmediata en la aplicación web / móvil Gridia para solucionarlo rápidamente.',
+				'Actualmente participo con el equipo de Gridia en el desarrollo de la aplicación web y móvil que permite a los usuario gestionar el consumo del agua de forma remota.',
 			icons: [Svelte, Javascript, Vite, Ionic, React, Vercel, Tailwindcss],
 			href: "https://www.gridia.io/",
 		},
@@ -52,7 +52,7 @@
 			src: ClaroMockup,
 			title: 'Claro Club',
 			description:
-				' App de beneficios que premia tu fidelidad  y preferencia. Obteniendo gratis, de forma fácil y rápida, una amplia gama de promociones y descuentos exclusivos en establecimientos seleccionados',
+				'Con mi participación en la nueva versión se logró aumentar en un 30% los usuarios nuevos llegando a 300 mil instalaciones en Centroamérica y 30,000 cupones canjeados por mes',
 			icons: [React, Javascript, Ionic, Capacitor, Android, Apple],
 			href: "https://clubclaro.com.gt/#/featured",
 		},
@@ -60,7 +60,7 @@
 			src: LocalizameMockup,
 			title: 'Localizame',
 			description:
-				'Es una herramienta que permite localizar líneas móviles Claro en tiempo real por medio de GPS, dirección IP y localización por antenas (SIM).',
+				'Participé activamente en la implementación de la aplicación móvil para el mercado de Centroamérica, lo que contribuyó significativamente el aumento de usuarios activos.',
 			icons: [React, Typescript, Ionic, Capacitor, Android, Apple],
 			href: "http://localizame.pentcloud.com/",
 		},
@@ -69,7 +69,7 @@
 			src: GodoMockup,
 			title: 'Godo',
 			description:
-				'La aplicación GoDo es una poderosa herramienta que permite a los usuarios escanear, guardar y compartir fácilmente las páginas de GoDo',
+				'Participé en el desarollo para la autenticación de usuarios mediante las plataformas de Google y Apple así facilitar al usuario en crear su cuenta de Godo, además de administrar la plataforma con un Backend.',
 			icons: [Nodejs, Mongo,],
 			href: "https://godocent.com/",
 
@@ -78,7 +78,7 @@
 			src: MarketspaceMockup,
 			title: 'Marketspace',
 			description:
-				'Dale a tus clientes una manera rápida y segura de hacer sus pedidos en línea con MarketSpace.',
+				'Con mi participación se lanzo Marktetspace para administrar multiples tiendas de los usuarios, así puedan vender sus productos en línea y llevar un inventario del mismo.',
 			icons: [Svelte, Javascript, Nodejs, Prisma, Vercel, Mysql],
 			href: "https://marketspace.digital/marketspace/",
 

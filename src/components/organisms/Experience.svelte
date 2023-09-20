@@ -24,12 +24,12 @@
 {#if visible}
 	<section class="h-fit mt-14 flex md:flex-col flex-col justify-center gap-8" id="experencie">
 		<h2 class="text-2xl font-poppins font-bold animate-fade animate-ease-in">Experencia</h2>
-		<div class="flex w-full justify-evenly h-full items-center md:flex-row flex-col gap-8">
-			<div class="flex flex-col items-center justify-between gap-3 md:min-w-[30rem] min-w-full">
+		<div class="flex w-full justify-around h-full items-center md:flex-row flex-col">
+			<div class="flex flex-col items-center justify-between gap-3">
 				<h3 class="text-7xl font-bold text-primary font-poppins">+ {counter}</h3>
 				<p class="text-sm">años de experencia</p>
 			</div>
-			<div class="flex flex-col justify-between h-full md:min-w-[30rem] w-full">
+			<div class="flex flex-col justify-between h-full ">
 				<div
 					class="flex gap-4 items-center my-2 w-full"
 					in:fly={{ y: 200, duration: 2000 }}

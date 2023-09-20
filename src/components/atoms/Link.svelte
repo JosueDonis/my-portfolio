@@ -3,6 +3,6 @@
 	export let href: string = '';
 </script>
 
-<a {href} class="m-0 box-border text-sm w-full link">
+<a {href} class="m-0 box-border w-full link">
 	{name ?? ''}
 </a>

@@ -22,7 +22,7 @@
 </script>
 
 <nav class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500">
-	<ul class="flex font-bold justify-end items-center w-full max-w-full flex-wrap gap-8">
+	<ul class="flex font-bold justify-end items-center w-full max-w-full flex-wrap md:gap-8 gap-2 md:text-sm text-[12px]">
 		{#each navs as nav}
 			<li>
 				<Link name={nav.name} href={nav.href} />
