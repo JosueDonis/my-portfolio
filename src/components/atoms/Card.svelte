@@ -24,7 +24,7 @@
 		</div>
 		<div class="flex gap-2 mb-2">
 			{#each icons as icon}
-				<svelte:component this={icon} class="w-[25px] h-[25px] text-gray-500" />
+				<svelte:component this={icon} class="w-[20px] h-[20px] text-gray-500" />
 			{/each}
 		</div>
 		<a
