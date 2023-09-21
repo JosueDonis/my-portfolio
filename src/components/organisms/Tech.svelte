@@ -15,7 +15,10 @@
 		Github,
 		Graphql,
 		Postgres,
-		Sass
+		Sass,
+
+		Angular
+
 	} from '@icons';
 	import Capacitor from '@icons/Capacitor.svelte';
 	import Css from '@icons/Css.svelte';
@@ -35,6 +38,10 @@
 				{
 					name: 'React',
 					icon: React
+				},
+				{
+					name: 'Angular',
+					icon: Angular
 				},
 				{
 					name: 'Ionic',

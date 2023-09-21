@@ -1,4 +1,5 @@
 import Android from './Android.svelte';
+import Angular from './Angular.svelte';
 import Apple from './Apple.svelte';
 import Capacitor from './Capacitor.svelte';
 import ChevronRight from './ChevronRight.svelte';
@@ -31,6 +32,7 @@ import Vite from './Vite.svelte';
 import Vscode from './Vscode.svelte';
 
 export {
+	Angular,
 	ChevronRight,
 	Link,
 	Mongo,
