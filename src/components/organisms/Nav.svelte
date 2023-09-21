@@ -22,17 +22,29 @@
 	];
 </script>
 
-<nav class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500">
-	<ul class="flex font-bold justify-end items-center w-full max-w-full flex-wrap md:gap-8 gap-4 text-sm">
+<nav class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500 items-center justify-center">
+	<ul
+		class="flex font-bold justify-end items-center w-full max-w-[100ch] flex-wrap md:gap-8 gap-4 text-sm"
+	>
 		{#each navs as nav}
 			<li>
-				<Link name={nav.name} href={nav.href}/>
+				<Link name={nav.name} href={nav.href} />
 			</li>
 		{/each}
 	</ul>
 </nav>
 
 <style lang="scss">
+	// nav {
+	// 	position: fixed;
+	// 	top: 0;
+	// 	left: 0;
+	// 	right: 0;
+	// 	height: 52px;
+	// 	background: hsl(0 4% 95% / 0.75);
+	// 	backdrop-filter: blur(4px);
+	// 	z-index: 2;
+	// }
 	ul {
 		position: relative;
 		li {
