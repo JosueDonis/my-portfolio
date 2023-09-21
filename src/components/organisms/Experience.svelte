@@ -54,7 +54,7 @@
 						<a
 							class="text-base hover:font-bold"
 							href="https://github.com/JosueDonis?tab=repositories"
-							target="_blank">Freenlancer Software Developer</a
+							target="_blank">Freelancer Software Developer</a
 						>
 						<p class="text-xs text-gray-400">Agosto 2022 - Actualmente</p>
 					</div>
