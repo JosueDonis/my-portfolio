@@ -52,7 +52,7 @@
 			src: ClaroMockup,
 			title: 'Claro Club',
 			description:
-				'Con mi participación en la nueva versión se logró aumentar en un 30% los usuarios nuevos llegando a 300 mil instalaciones en Centroamérica y 30,000 cupones canjeados por mes',
+				'Con mi participación en la nueva versión se logró aumentar en un 30% los usuarios nuevos llegando a 300 mil instalaciones en Centroamérica y 30,000 cupones canjeados por mes.',
 			icons: [React, Javascript, Ionic, Capacitor, Android, Apple],
 			href: "https://clubclaro.com.gt/#/featured",
 		},
