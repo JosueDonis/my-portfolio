@@ -102,11 +102,11 @@
 			title: 'Base de Datos',
 			frameworks: [
 				{
-					name: 'Mysql',
+					name: 'MySQL',
 					icon: Mysql
 				},
 				{
-					name: 'Postgres',
+					name: 'PostgreSQL',
 					icon: Postgres
 				},
 				{
