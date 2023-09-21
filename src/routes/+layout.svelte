@@ -18,7 +18,7 @@
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
-<Nav />
 <main>
+	<Nav />
 	<slot />
 </main>

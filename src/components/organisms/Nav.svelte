@@ -22,9 +22,9 @@
 	];
 </script>
 
-<nav class="flex px-2 w-full max-w-full md:h-14 h-auto flex-none transition-colors duration-500 items-center justify-center">
+<nav class="flex px-2 w-full max-w-full h-14 flex-none transition-colors duration-500 items-center justify-center">
 	<ul
-		class="flex font-bold justify-end items-center w-full max-w-[100ch] flex-wrap md:gap-8 gap-4 text-sm"
+		class="flex font-bold justify-end items-center w-full max-w-full flex-wrap md:gap-8 gap-4 text-sm"
 	>
 		{#each navs as nav}
 			<li>
