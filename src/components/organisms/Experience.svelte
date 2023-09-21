@@ -66,7 +66,7 @@
 						<a class="text-base hover:font-bold" href="https://www.pentcloud.com/" target="_blank"
 							>Full-Stack Developer</a
 						>
-						<p class="text-xs text-gray-400">julio 2019 - Enero 2021</p>
+						<p class="text-xs text-gray-400">Julio 2019 - Diciembre 2022</p>
 					</div>
 				</div>
 				<div class="w-[1px] h-10 bg-gray-400 ml-4" in:fade={{ duration: 1500, delay: 1200 }} />
