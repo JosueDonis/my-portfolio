@@ -24,7 +24,7 @@
 {#if visible}
 	<section class="md:mt-0 mt-14 flex md:flex-col flex-col justify-center gap-8" id="experencie">
 		<h2 class="text-2xl font-poppins font-bold animate-fade animate-ease-in">Experencia</h2>
-		<div class="flex w-full justify-around h-full items-center md:flex-row flex-col gap-10">
+		<div class="justify-center h-full items-center grid md:grid-cols-[minmax(200px,_300px)_minmax(200px,_400px)] gap-10">
 			<div class="flex flex-col items-center justify-between gap-3">
 				<h3 class="text-7xl font-bold text-primary font-poppins">+ {counter}</h3>
 				<p class="text-sm">años de experencia</p>
