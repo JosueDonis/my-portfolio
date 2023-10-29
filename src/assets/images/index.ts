@@ -10,7 +10,8 @@ import SymfoniaMockup from './symfonia-mockup.png';
 import GodoMockup from './godo-mockup.png';
 import AstronautFloating from './astronaut-floating.png';
 import AstronautView from './astronaut-three-quarter-back-view.png';
-
+import AvatarPixar from './avatar-pixar.jpg';
+import ShapeSvg from './shape.svg';
 export {
 	Astronaut,
 	Gridia,
@@ -23,5 +24,7 @@ export {
 	SymfoniaMockup,
 	GodoMockup,
 	AstronautFloating,
-	AstronautView
+	AstronautView,
+	AvatarPixar,
+	ShapeSvg
 };

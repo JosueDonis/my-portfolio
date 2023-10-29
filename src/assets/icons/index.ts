@@ -23,6 +23,7 @@ import Prisma from './Prisma.svelte';
 import React from './React.svelte';
 import Sass from './Sass.svelte';
 import Sequelize from './Sequelize.svelte';
+import Shape from './Shape.svelte';
 import Svelte from './Svelte.svelte';
 import Tailwindcss from './Tailwindcss.svelte';
 import Typescript from './Typescript.svelte';
@@ -63,5 +64,6 @@ export {
 	Laptop,
 	Instagram,
 	Github,
-	Javascript
+	Javascript,
+	Shape,
 };
